@@ -1,0 +1,28 @@
+{
+    "name": "ranagpt/php-sdk",
+    "description": "Official PHP SDK for RanaGPT AI services - Multiple AI models, voice generation, image creation, and more",
+    "type": "library",
+    "keywords": ["ai", "chatgpt", "deepseek", "voice", "image", "api", "ranagpt"],
+    "homepage": "https://github.com/ranagpt/php-sdk",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Tofey",
+            "email": "dev@ranagpt.com",
+            "homepage": "https://tofey.yzz.me",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "RanaGPT\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=7.4",
+        "ext-curl": "*",
+        "ext-json": "*"
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
